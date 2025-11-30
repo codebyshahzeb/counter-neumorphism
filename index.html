@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="counter.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Popup Overlay -->
+<div id="popupOverlay" class="overlay">
+    <div class="popupBox">
+        <button class="closePopup">✕</button>
+
+        <h2 id="popupTitle">Settings</h2>
+
+        <div id="popupDynamic"></div>
+    </div>
+</div>
+
+<div class="maincontainer">
+    <div class="inner">
+        <input type="text" value="0" readonly id="input">
+
+        <div class="counteroperators">
+            <button class="increase">+</button>
+            <button class="decrease">-</button>
+        </div>
+
+        <div class="controlbuttons">
+            <button class="gearBtn"><i class="fa-solid fa-gear"></i></button>
+            <button class="rotate"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <button class="heartBtn"><i class="fa-solid fa-heart"></i></button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
